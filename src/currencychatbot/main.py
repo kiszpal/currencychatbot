@@ -34,4 +34,4 @@ if __name__ == '__main__':
                 else:
                     await message.channel.send(return_value)
 
-    client.run("MTA5NzUyOTE3MjczOTUwNjIyNg.GqkYfo.zVALYa0tXkfl3b5apu8p3nAsehsUqCIFqxdjg8")
+    client.run(bot.TOKEN)
