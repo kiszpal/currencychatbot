@@ -1,4 +1,4 @@
-from src.currencychatbot import response
+import response
 from forex_python.converter import CurrencyRates
 import pandas
 from datetime import datetime, timedelta
@@ -19,7 +19,7 @@ class Currency:
         rates = self.rates.get_rates(base)
         match len(desired_currencies):
             case 1:
-                return f"{base} is worth {self.rates.get_rate(base, desired_currencies[0].upper())} {round(desired_currencies[0].upper(), 2)}"
+                return f"{base} is worth {self.rates.get_rate(base, desired_currencies[0].upper())} {desired_currencies[0].upper()}"
             case 0:
                 return response.BaseResponse().response
 

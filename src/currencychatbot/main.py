@@ -1,6 +1,6 @@
-from currencychatbot import Bot
+from Bot import Bot
 import discord
-from src.currencychatbot.response import Response, ResponseArguments
+from response import Response, ResponseArguments
 
 if __name__ == '__main__':
     bot = Bot()
@@ -34,4 +34,4 @@ if __name__ == '__main__':
                 else:
                     await message.channel.send(return_value)
 
-    client.run(bot.TOKEN)
+    client.run("MTA5NzUyOTE3MjczOTUwNjIyNg.GqkYfo.zVALYa0tXkfl3b5apu8p3nAsehsUqCIFqxdjg8")

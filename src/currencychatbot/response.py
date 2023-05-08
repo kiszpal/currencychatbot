@@ -198,7 +198,7 @@ class Response(BaseResponse):
                     return os.getenv("HELP")
 
                 case "change":
-                    self.process_change()
+                    return self.process_change()
 
                 case "currency":
                     return f"You can use the following commands to get information from me about currencies:\n" \
