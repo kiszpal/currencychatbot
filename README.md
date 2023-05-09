@@ -1,3 +1,5 @@
-pip install -i https://test.pypi.org/simple/ currencychatbot==0.0.2
-
-The .env file is downloadable from this repository. To make a use of the code, you should insert a discord chatbot token into the .env file's DISCORD_TOKEN data tag.
+Install:
+ 1. Clone this repository.
+ 2. Open src/currencychatbot/.env file.
+ 3. Insert your discord bot's token after DISCORD_TOKEN.
+ 4. Run src/currencychatbot/main.py
